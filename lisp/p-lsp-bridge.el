@@ -11,11 +11,14 @@
 (require 'acm-terminal)
 (global-lsp-bridge-mode)
 
-
 (setq lsp-bridge-python-command "/home/skywalkerch/.local/pythonenvs/myenv/bin/python3")
 (setq lsp-bridge-enable-inlay-hint t)
 (setq lsp-bridge-enable-hover-diagnostic t)
-(setq acm-enable-doc t)
-
-
+(setq acm-enable-doc nil) 
+(setq lsp-bridge-signature-show-with-frame-position t)
+(setq lsp-bridge-enable-completion-in-minibuffer t)
+(setq lsp-bridge-enable-completion-in-string t)
+(setq lsp-bridge-enable-diagnostics t)
+(setq lsp-bridge-enable-hover-diagnostic t)
+(add-hook 'before-save-hook 'lsp-bridge-code-format)
 (provide 'p-lsp-bridge)

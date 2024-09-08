@@ -1,3 +1,5 @@
 (add-to-list 'load-path (expand-file-name "packages/emacs-libvterm" user-emacs-directory))
 (require 'vterm)
+(setq shell-file-name "usr/bin/zsh")
+(setenv "SHELL" shell-file-name)
 (provide 'p-vterm)
