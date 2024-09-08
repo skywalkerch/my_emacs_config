@@ -1,0 +1,25 @@
+[submodule "packages/use-package"]
+	path = packages/use-package
+	url = https://github.com/jwiegley/use-package.git
+[submodule "packages/lsp-bridge"]
+	path = packages/lsp-bridge
+	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "packages/acm-terminal"]
+	path = packages/acm-terminal
+	url = https://github.com/twlz0ne/acm-terminal.git
+[submodule "packages/markdown-mode"]
+	path = packages/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "packages/popon"]
+	path = packages/popon
+	url = https://github.com/cimisc/emacs-popon.git
+
+[submodule "packages/vscode-theme"]
+	path = packages/vscode-theme
+	url = https://github.com/ianyepan/vscode-dark-plus-emacs-theme.git
+[submodule "packages/emacs-libvterm"]
+	path = packages/emacs-libvterm
+	url = https://github.com/akermu/emacs-libvterm.git
