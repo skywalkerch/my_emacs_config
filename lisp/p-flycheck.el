@@ -1,4 +1,8 @@
 (use-package flycheck
   :ensure t
-  :init (global-flycheck-mode))
-  (provide 'p-flycheck)
+  :config
+   (setq truncate-lines nil)
+  :hook
+  (c++-mode . flycheck-mode)
+)
+(provide 'p-flycheck)
